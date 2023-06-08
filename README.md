@@ -1,6 +1,7 @@
 ![banner](.images/banner-dark-theme.png#gh-dark-mode-only)
 ![banner](.images/banner-light-theme.png#gh-light-mode-only)
 
+**Tutorial on how to get micro-ROS up and running on the Raspberry Pi Pico -> https://youtu.be/_4aLzvG6dfw**
 # micro-ROS module for Raspberry Pi Pico SDK
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
