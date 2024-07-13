@@ -48,7 +48,7 @@ make
 
 To flash, hold the boot button, plug the USB and run:
 ```
-cp pico_micro_ros_example.uf2 /media/$USER/RPI-RP2
+cp udp_micro_ros_raspberrypi_pico_sdk.uf2 /media/$USER/RPI-RP2
 ```
 
 ### 3. Start Micro-ROS Agent
@@ -61,7 +61,7 @@ docker run -it --rm -v /dev:/dev --privileged --net=host microros/micro-ros-agen
 ## What files are relevant?
 - `pico_uart_transport.c`: Contains the board specific implementation of the serial transport (no change needed).
 - `CMakeLists.txt`: CMake file.
-- `pico_micro_ros_example.c`: The actual ROS 2 publisher.
+- `udp_micro_ros_raspberrypi_pico_sdk.c`: The actual ROS 2 publisher.
 
 ## How to build the precompiled library
 

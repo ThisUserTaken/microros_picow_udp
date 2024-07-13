@@ -39,6 +39,6 @@ jobs:
           cd build
           cmake ..
           make
-          (test -f pico_micro_ros_example.uf2) && true || false
+          (test -f udp_micro_ros_raspberrypi_pico_sdk.uf2) && true || false
 
       
